@@ -4983,12 +4983,12 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <library name="aliexpress">
 <packages>
 <package name="LIPOCHARGER">
-<pad name="IN+" x="-12.7" y="10.16" drill="1" shape="square"/>
-<pad name="OUT+" x="11.43" y="10.16" drill="1" shape="square"/>
-<pad name="IN-" x="-12.7" y="-5.08" drill="1" shape="square"/>
-<pad name="OUT-" x="11.43" y="-5.08" drill="1" shape="square"/>
-<pad name="B-" x="11.43" y="-2.54" drill="1" shape="square"/>
-<pad name="B+" x="11.43" y="7.62" drill="1" shape="square"/>
+<pad name="IN+" x="-11.43" y="8.89" drill="1.2" diameter="1.778" shape="square"/>
+<pad name="OUT+" x="10.16" y="8.89" drill="1.2" shape="square"/>
+<pad name="IN-" x="-11.43" y="-3.81" drill="1.2" shape="square"/>
+<pad name="OUT-" x="10.16" y="-3.81" drill="1.2" shape="square"/>
+<pad name="B-" x="10.16" y="-1.27" drill="1.2" shape="square"/>
+<pad name="B+" x="10.16" y="6.35" drill="1.2" shape="square"/>
 <wire x1="-13.97" y1="11.43" x2="12.7" y2="11.43" width="0.127" layer="21"/>
 <wire x1="12.7" y1="11.43" x2="12.7" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="12.7" y1="-6.35" x2="-13.97" y2="-6.35" width="0.127" layer="21"/>
@@ -4998,12 +4998,12 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <wire x1="-13.97" y1="6.35" x2="-8.89" y2="6.35" width="0.127" layer="21"/>
 <wire x1="-8.89" y1="6.35" x2="-8.89" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-13.97" y1="-1.27" x2="-8.89" y2="-1.27" width="0.127" layer="21"/>
-<text x="-11.43" y="8.89" size="1.27" layer="21">IN+</text>
-<text x="-11.43" y="-5.08" size="1.27" layer="21">IN-</text>
-<text x="10.16" y="-1.27" size="1.27" layer="21">B-</text>
-<text x="10.16" y="5.08" size="1.27" layer="21">B+</text>
-<text x="5.08" y="8.89" size="1.27" layer="21">OUT+</text>
-<text x="5.08" y="-5.08" size="1.27" layer="21">OUT-</text>
+<text x="-8.89" y="10.16" size="1.27" layer="21">IN+</text>
+<text x="-10.16" y="-5.08" size="1.27" layer="21">IN-</text>
+<text x="10.16" y="0" size="1.27" layer="21">B-</text>
+<text x="10.16" y="3.81" size="1.27" layer="21">B+</text>
+<text x="3.81" y="8.89" size="1.27" layer="21">OUT+</text>
+<text x="3.81" y="-5.08" size="1.27" layer="21">OUT-</text>
 </package>
 </packages>
 <symbols>
